@@ -20,9 +20,8 @@
             width: 100%;
             margin: 0;
             padding: 0;
-            -webkit-appearance: none;
-            -moz-appearance: none; 
-            appearance: none;
+
+
         }
 
         input {
@@ -65,7 +64,7 @@
                 <tr>
                     <td nowrap>대상 (보스)</td>
                     <td>
-                        <select class="form-select bg-transparent text-dark" id="boss"
+                        <select id="boss"
                             onchange="if(this.value == 'custom') {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='';});} else {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='none';});}">
                             <option label="클레르" value="claire"></option>
                             <option label="폭주한 엘쿨루스" value="elchulus"></option>
