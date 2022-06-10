@@ -62,7 +62,7 @@
                 <tr>
                     <td nowrap>대상 (보스)</td>
                     <td>
-                        <select id="boss"
+                        <select class="form-select" id="boss"
                             onchange="if(this.value == 'custom') {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='';});} else {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='none';});}">
                             <option label="클레르" value="claire"></option>
                             <option label="폭주한 엘쿨루스" value="elchulus"></option>
@@ -163,7 +163,7 @@
                         </tr>
                     </table>
                     <hr>
-                    <button style='width: 324px;' onclick='exec(1);'>1번 캐릭터 전투력 계산</button>
+                    <button type="button" class="btn btn-outline-dark mb-2" style='width: 324px;' onclick='exec(1);'>1번 캐릭터 전투력 계산</button>
                 </div>
                 <div id='output'>
                     <table style='table-layout:fixed;'>
@@ -231,7 +231,7 @@
                         </tr>
                     </table>
                     <hr>
-                    <button style='width: 324px;' onclick='exec(2);'>2번 캐릭터 전투력 계산</button>
+                    <button type="button" class="btn btn-outline-dark mb-2" style='width: 324px;' onclick='exec(2);'>2번 캐릭터 전투력 계산</button>
                 </div>
                 <div id='output'>
                     <table style='table-layout:fixed;'>
@@ -292,7 +292,7 @@
                         </tr>
                     </table>
                 </div>
-                <button style='display: block; width: 97%;' onclick='compare();'>선택한 유효전투력 기준으로 동스펙 2인 플레이시 딜량
+                <button type="button" class="btn btn-outline-dark mt-2 mb-2" style='display: block; width: 97%;' onclick='compare();'>선택한 유효전투력 기준으로 동스펙 2인 플레이시 딜량
                     보정해보기</button>
             </div>
             <div id='output'>
@@ -334,7 +334,7 @@
                             <td nowrap><input id='timedeal1' value='100'>%</td>
                         </tr>
                     </table>
-                    <button style='display: block; width: 97%;' onclick='timecalc(1);'>풀스펙(7000/7500) 기준으로 계산하기</button>
+                    <button type="button" class="btn btn-outline-dark mt-2 mb-2" style='display: block; width: 97%;' onclick='timecalc(1);'>풀스펙(7000/7500) 기준으로 계산하기</button>
                 </div>
                 <div id='time2' style='display: inline-block; width: 380px;'>
                     <table style='table-layout:fixed;'>
@@ -349,7 +349,7 @@
                             <td nowrap><input id='timedeal2' value='100'>%</td>
                         </tr>
                     </table>
-                    <button style='display: block; width: 97%;' onclick='timecalc(2);'>풀스펙(7000/7500) 기준으로 계산하기</button>
+                    <button type="button" class="btn btn-outline-dark mt-2 mb-2" style='display: block; width: 97%;' onclick='timecalc(2);'>풀스펙(7000/7500) 기준으로 계산하기</button>
                 </div>
             </div>
             <div id='output'>
