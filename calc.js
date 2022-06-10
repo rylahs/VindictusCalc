@@ -208,7 +208,7 @@ const bossstat = {
         bossalrlimit: 8000
     },
     taros: {
-        def: 41000,
+        def: 40000,
         res: 229,
         bosscounterforce: 180,
         bosscounterforcemindmg: 10,
@@ -242,8 +242,7 @@ function exec(num) {
 
     if (alr > boss.bossalrlimit)
         alr = boss.bossalrlimit;
-        
-    console.log(alr);
+
     let cri = target.querySelector('input#cri').value * 1;
     let counterforce = target.querySelector('input#counterforce').value * 1;
     let swordl;
