@@ -227,7 +227,8 @@ function exec(num) {
             res: document.querySelector('input#bossres').value * 1,
             bosscounterforce: document.querySelector('input#bosscounterforce').value * 1,
             bosscounterforcemindmg: document.querySelector('input#bosscounterforcemindmg').value * 1,
-            bossbalforce: document.querySelector('input#bossbalforce').value * 1
+            bossbalforce: document.querySelector('input#bossbalforce').value * 1,
+            bossalrlimit: document.querySelector('input#bossalrlimit').value * 1
         };
     else
         boss = bossstat[document.querySelector('select#boss').value];
@@ -241,7 +242,8 @@ function exec(num) {
 
     if (alr > boss.bossalrlimit)
         alr = boss.bossalrlimit;
-    
+        
+    console.log(alr);
     let cri = target.querySelector('input#cri').value * 1;
     let counterforce = target.querySelector('input#counterforce').value * 1;
     let swordl;
