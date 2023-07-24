@@ -312,7 +312,7 @@ function calcdmg(boss, atk, add, alr, bal, cri, counterforce, swordl, spearl) {
 
     let nocritdmg = (base + add * adm) * (bal + 100) / 200;
     if (boss.bosscounterforce > 0) {
-        let ddm = Math.min((boss.bosscounterforcemindmg + (70 * counterforce / boss.bosscounterforce)), 100) / 100;
+        let ddm = Math.min((boss.bosscounterforcemindmg + (70 * counterforce / (boss.bosscounterforce + 100))), 100) / 100;
         nocritdmg = nocritdmg * ddm;
     }
 
