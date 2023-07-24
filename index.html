@@ -66,14 +66,6 @@
                     <td>
                         <select id="boss"
                             onchange="if(this.value == 'custom') {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='';});} else {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='none';});}">
-                            <option label="클레르" value="claire"></option>
-                            <option label="폭주한 엘쿨루스" value="elchulus"></option>
-                            <option label="마하" value="macha"></option>
-                            <option label="아가레스" value="agares"></option>
-                            <option label="광휘의 루" value="lugh"></option>
-                            <option label="서큐버스 셀렌" value="selren"></option>
-                            <option label="마르젝트" value="marject"></option>
-                            <option label="아이단" value="aodhan"></option>
                             <option label="세자르" value="caesar"></option>
                             <option label="네베레스" value="nyle"></option>
                             <option label="라그나힘" value="ragnahim"></option>
@@ -85,15 +77,17 @@
                             <option label="밀레드" value="milo"></option>
                             <option label="카사르" value="ceasair"></option>
                             <option label="에녹" value="enok"></option>
+                            <option label="이루산" value="irusan"></option>
+                            <option label="에메트" value="emmet"></option>
                             <option label="스페셜 던전" value="special"></option>
                             <option label="네반" value="neamhain"></option>
                             <option label="발로르" value="balor" ></option>
                             <option label="브리지트" value="brigit"></option>
-                            <option label="라우라" value="laura" selected></option>
+                            <option label="라우라" value="laura" ></option>
                             <option label="[헬] 네반 & 발로르" value="hell1"></option>
                             <option label="[헬] 브리지트" value="hell2"></option>
                             <option label="[헬] 라우라" value="hell3"></option>
-                            <option label="[시공간 왜곡] 타로스" value="taros"></option>
+                            <option label="[시공간 왜곡] 타로스" value="taros" selected></option>
                             <option label="사용자 지정" value="custom"></option>
                         </select>
                     </td>
@@ -111,7 +105,7 @@
                     <td><input id='bosscounterforce' value='0'></td>
                 </tr>
                 <tr class='customstat' style='display: none;'>
-                    <td nowrap>대항력 보정 최소치(10 = 대항력이 낮아도 최소 10%의 데미지 적용)</td>
+                    <td nowrap>대항력 보정 최소치(30 = 대항력이 낮아도 최소 30%의 데미지 적용)</td>
                     <td><input id='bosscounterforcemindmg' value='100'></td>
                 </tr>
                 <tr class='customstat' style='display: none;'>
@@ -145,7 +139,7 @@
                         </tr>
                         <tr>
                             <td nowrap>밸런스</td>
-                            <td><input id='bal' value='95'></td>
+                            <td><input id='bal' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>크리티컬</td>
@@ -166,7 +160,7 @@
                         </tr>
                         <tr>
                             <td nowrap>대항력</td>
-                            <td><input id='counterforce' value='240'></td>
+                            <td><input id='counterforce' value='300'></td>
                         </tr>
                     </table>
                     <hr>
@@ -213,7 +207,7 @@
                         </tr>
                         <tr>
                             <td nowrap>밸런스</td>
-                            <td><input id='bal' value='95'></td>
+                            <td><input id='bal' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>크리티컬</td>
@@ -234,7 +228,7 @@
                         </tr>
                         <tr>
                             <td nowrap>대항력</td>
-                            <td><input id='counterforce' value='240'></td>
+                            <td><input id='counterforce' value='300'></td>
                         </tr>
                     </table>
                     <hr>
@@ -396,7 +390,7 @@
             본 계산기의 데미지 계산식은 <a style="color: black;" href='http://www.inven.co.kr/board/heroes/2028/38144'
                 target='blank'>http://www.inven.co.kr/boa...</a> 글을 참고했습니다. <br />
             본 계산기는 다음 사이트를 <a style="color: black;" href="https://ccuuyyjj.github.io/heroes-dmg-calc/" target="blank">참고</a>로 만들어졌습니다. <br>
-            Last Update : 2022.06.10.
+            Last Update : 2023.07.25.
         </div>
             
         

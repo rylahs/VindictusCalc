@@ -151,13 +151,29 @@ const bossstat = {
         bossbalforce: 16,
         bossalrlimit: 8000
     },
-    special: {
-        def: 32300,
-        res: 175,
-        bosscounterforce: 88,
+    irusan: {
+        def: 38780,
+        res: 206,
+        bosscounterforce: 116,
         bosscounterforcemindmg: 30,
-        bossbalforce: 7,
-        bossalrlimit: 8000
+        bossbalforce: 20,
+        bossalrlimit: 10150
+    },
+    emmet: {
+        def: 40180,
+        res: 214,
+        bosscounterforce: 116,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 28,
+        bossalrlimit: 10150
+    },
+    special: {
+        def: 38780,
+        res: 206,
+        bosscounterforce: 116,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 20,
+        bossalrlimit: 10150
     },
     neamhain: {
         def: 17000,
@@ -296,7 +312,7 @@ function calcdmg(boss, atk, add, alr, bal, cri, counterforce, swordl, spearl) {
 
     let nocritdmg = (base + add * adm) * (bal + 100) / 200;
     if (boss.bosscounterforce > 0) {
-        let ddm = Math.max(Math.min(counterforce - boss.bosscounterforce, 100), boss.bosscounterforcemindmg) / 100;
+        let ddm = Math.min((boss.bosscounterforcemindmg + (70 * counterforce / boss.bosscounterforce)), 100) / 100;
         nocritdmg = nocritdmg * ddm;
     }
 
