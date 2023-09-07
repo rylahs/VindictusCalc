@@ -384,10 +384,10 @@ function timecalc(num) {
     if (num == 1) {
         if (comptype == 'crit') {
             dmg = document.querySelector('#calc1 input#critdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7500, 9500, 200, 999, 999, swordl, spearl)[1];
+            fullspecdmg = calcdmg(boss, 99999, 7600, 9500, 200, 999, 999, swordl, spearl)[1];
         } else if (comptype == 'nocrit') {
             dmg = document.querySelector('#calc1 input#nocritdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7500, 9500, 200, 999, 999, swordl, spearl)[0];
+            fullspecdmg = calcdmg(boss, 99999, 7600, 9500, 200, 999, 999, swordl, spearl)[0];
         }
         inputtime = document.querySelector('#timecalc #input input#min1').value * 1 + document.querySelector('#timecalc #input input#sec1').value * 1 / 60;
         timedeal = document.querySelector('#timecalc #input input#timedeal1').value * 1;
