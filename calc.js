@@ -69,7 +69,7 @@ const bossstat = {
         bosscounterforce: 55,
         bosscounterforcemindmg: 30,
         bossbalforce: 0,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     nyle: {
         def: 30100,
@@ -77,7 +77,7 @@ const bossstat = {
         bosscounterforce: 60,
         bosscounterforcemindmg: 30,
         bossbalforce: 1,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     ragnahim: {
         def: 31200,
@@ -85,7 +85,7 @@ const bossstat = {
         bosscounterforce: 65,
         bosscounterforcemindmg: 30,
         bossbalforce: 2,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     siete: {
         def: 32300,
@@ -93,7 +93,7 @@ const bossstat = {
         bosscounterforce: 70,
         bosscounterforcemindmg: 30,
         bossbalforce: 3,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     epona: {
         def: 32300,
@@ -101,7 +101,7 @@ const bossstat = {
         bosscounterforce: 75,
         bosscounterforcemindmg: 30,
         bossbalforce: 4,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     tarathan: {
         def: 32300,
@@ -109,7 +109,7 @@ const bossstat = {
         bosscounterforce: 80,
         bosscounterforcemindmg: 30,
         bossbalforce: 4,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     romel: {
         def: 32300,
@@ -117,7 +117,7 @@ const bossstat = {
         bosscounterforce: 88,
         bosscounterforcemindmg: 30,
         bossbalforce: 7,
-        bossalrlimit: 8000
+        bossalrlimit: 0
     },
     naberius: {
         def: 34110,
@@ -125,7 +125,7 @@ const bossstat = {
         bosscounterforce: 92,
         bosscounterforcemindmg: 30,
         bossbalforce: 9,
-        bossalrlimit: 8000
+        bossalrlimit: 0
     },
     milo: {
         def: 35920,
@@ -133,7 +133,7 @@ const bossstat = {
         bosscounterforce: 100,
         bosscounterforcemindmg: 30,
         bossbalforce: 12,
-        bossalrlimit: 8000
+        bossalrlimit: 0
     },
     ceasair: {
         def: 37780,
@@ -141,7 +141,7 @@ const bossstat = {
         bosscounterforce: 108,
         bosscounterforcemindmg: 30,
         bossbalforce: 14,
-        bossalrlimit: 8000
+        bossalrlimit: 0
     },
     enok: {
         def: 37780,
@@ -149,7 +149,7 @@ const bossstat = {
         bosscounterforce: 116,
         bosscounterforcemindmg: 30,
         bossbalforce: 16,
-        bossalrlimit: 8000
+        bossalrlimit: 0
     },
     irusan: {
         def: 38780,
@@ -157,7 +157,7 @@ const bossstat = {
         bosscounterforce: 116,
         bosscounterforcemindmg: 30,
         bossbalforce: 20,
-        bossalrlimit: 10150
+        bossalrlimit: 0
     },
     emmet: {
         def: 40180,
@@ -165,7 +165,7 @@ const bossstat = {
         bosscounterforce: 116,
         bosscounterforcemindmg: 30,
         bossbalforce: 28,
-        bossalrlimit: 10150
+        bossalrlimit: 0
     },
     special: {
         def: 38780,
@@ -173,7 +173,7 @@ const bossstat = {
         bosscounterforce: 116,
         bosscounterforcemindmg: 30,
         bossbalforce: 20,
-        bossalrlimit: 10150
+        bossalrlimit: 0
     },
     neamhain: {
         def: 17000,
@@ -181,7 +181,7 @@ const bossstat = {
         bosscounterforce: 0,
         bosscounterforcemindmg: 100,
         bossbalforce: 0,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     balor: {
         def: 23500,
@@ -189,7 +189,7 @@ const bossstat = {
         bosscounterforce: 0,
         bosscounterforcemindmg: 100,
         bossbalforce: 0,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     brigit: {
         def: 30000,
@@ -197,7 +197,7 @@ const bossstat = {
         bosscounterforce: 0,
         bosscounterforcemindmg: 100,
         bossbalforce: 0,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     laura: {
         def: 35500,
@@ -205,7 +205,7 @@ const bossstat = {
         bosscounterforce: 0,
         bosscounterforcemindmg: 100,
         bossbalforce: 4,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     hell1: {
         def: 29000,
@@ -213,7 +213,7 @@ const bossstat = {
         bosscounterforce: 0,
         bosscounterforcemindmg: 100,
         bossbalforce: 0,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     hell2: {
         def: 35500,
@@ -221,7 +221,7 @@ const bossstat = {
         bosscounterforce: 0,
         bosscounterforcemindmg: 100,
         bossbalforce: 0,
-        bossalrlimit: 5800
+        bossalrlimit: 0
     },
     hell3: {
         def: 37280,
@@ -229,7 +229,7 @@ const bossstat = {
         bosscounterforce: 0,
         bosscounterforcemindmg: 100,
         bossbalforce: 17,
-        bossalrlimit: 8000
+        bossalrlimit: 0
     },
     taros: {
         def: 40000,
@@ -237,7 +237,15 @@ const bossstat = {
         bosscounterforce: 180,
         bosscounterforcemindmg: 30,
         bossbalforce: 34,
-        bossalrlimit: 9500
+        bossalrlimit: 0
+    },
+    eisenriter: {
+        def: 42850,
+        res: 254,
+        bosscounterforce: 220,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 59,
+        bossalrlimit: 0
     }
 }
 
@@ -264,7 +272,7 @@ function exec(num) {
     if (bal > 100)
         bal = 100;
 
-    if (alr > boss.bossalrlimit)
+    if (boss.bossalrlimit != 0 && alr > boss.bossalrlimit)
         alr = boss.bossalrlimit;
 
     let cri = target.querySelector('input#cri').value * 1;
@@ -379,10 +387,10 @@ function timecalc(num) {
     if (num == 1) {
         if (comptype == 'crit') {
             dmg = document.querySelector('#calc1 input#critdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7000, 7500, 150, 999, 999, swordl, spearl)[1];
+            fullspecdmg = calcdmg(boss, 99999, 7500, 9500, 200, 999, 999, swordl, spearl)[1];
         } else if (comptype == 'nocrit') {
             dmg = document.querySelector('#calc1 input#nocritdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7000, 7500, 150, 999, 999, swordl, spearl)[0];
+            fullspecdmg = calcdmg(boss, 99999, 7500, 9500, 200, 999, 999, swordl, spearl)[0];
         }
         inputtime = document.querySelector('#timecalc #input input#min1').value * 1 + document.querySelector('#timecalc #input input#sec1').value * 1 / 60;
         timedeal = document.querySelector('#timecalc #input input#timedeal1').value * 1;
@@ -390,10 +398,10 @@ function timecalc(num) {
         if (comptype == 'crit') {
             dmg = document.querySelector('#calc2 input#critdmg').value * 1;
             // (boss, atk, add, alr, bal, cri, counterforce, swordl, spearl)
-            fullspecdmg = calcdmg(boss, 99999, 7000, 7500, 150, 999, 999, swordl, spearl)[1];
+            fullspecdmg = calcdmg(boss, 99999, 7500, 9500, 200, 999, 999, swordl, spearl)[1];
         } else if (comptype == 'nocrit') {
             dmg = document.querySelector('#calc2 input#nocritdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7000, 7500, 150, 999, 999, swordl, spearl)[0];
+            fullspecdmg = calcdmg(boss, 99999, 7500, 9500, 200, 999, 999, swordl, spearl)[0];
         }
         inputtime = document.querySelector('#timecalc #input input#min2').value * 1 + document.querySelector('#timecalc #input input#sec2').value * 1 / 60;
         timedeal = document.querySelector('#timecalc #input input#timedeal2').value * 1;
