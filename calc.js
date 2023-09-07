@@ -272,9 +272,6 @@ function exec(num) {
     if (bal > 100)
         bal = 100;
 
-    if (boss.bossalrlimit != 0 && alr > boss.bossalrlimit)
-        alr = boss.bossalrlimit;
-
     let cri = target.querySelector('input#cri').value * 1;
     let counterforce = target.querySelector('input#counterforce').value * 1;
     let swordl;
