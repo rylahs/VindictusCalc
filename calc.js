@@ -167,6 +167,22 @@ const bossstat = {
         bossbalforce: 28,
         bossalrlimit: 0
     },
+    jarnir: {
+        def: 42230,
+        res: 226,
+        bosscounterforce: 136,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 37,
+        bossalrlimit: 0
+    },
+    bres: {
+        def: 43860,
+        res: 240,
+        bosscounterforce: 156,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 44,
+        bossalrlimit: 0
+    },
     special: {
         def: 38780,
         res: 206,
