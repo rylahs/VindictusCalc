@@ -183,12 +183,20 @@ const bossstat = {
         bossbalforce: 44,
         bossalrlimit: 0
     },
-    special: {
-        def: 38780,
-        res: 206,
-        bosscounterforce: 116,
+    sreng: {
+        def: 43920,
+        res: 246,
+        bosscounterforce: 186,
         bosscounterforcemindmg: 30,
-        bossbalforce: 20,
+        bossbalforce: 53,
+        bossalrlimit: 0
+    },
+    special: {
+        def: 43920,
+        res: 246,
+        bosscounterforce: 186,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 53,
         bossalrlimit: 0
     },
     neamhain: {
@@ -400,10 +408,10 @@ function timecalc(num) {
     if (num == 1) {
         if (comptype == 'crit') {
             dmg = document.querySelector('#calc1 input#critdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7600, 9450, 200, 999, 999, swordl, spearl)[1];
+            fullspecdmg = calcdmg(boss, 99999, 7850, 13690, 500, 999, 999, swordl, spearl)[1];
         } else if (comptype == 'nocrit') {
             dmg = document.querySelector('#calc1 input#nocritdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7600, 9450, 200, 999, 999, swordl, spearl)[0];
+            fullspecdmg = calcdmg(boss, 99999, 7850, 13690, 500, 999, 999, swordl, spearl)[0];
         }
         inputtime = document.querySelector('#timecalc #input input#min1').value * 1 + document.querySelector('#timecalc #input input#sec1').value * 1 / 60;
         timedeal = document.querySelector('#timecalc #input input#timedeal1').value * 1;
