@@ -191,6 +191,15 @@ const bossstat = {
         bossbalforce: 53,
         bossalrlimit: 0
     },
+    spinos: {
+        def: 45920,
+        res: 261,
+        bosscounterforce: 196,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 56,
+        bossalrlimit: 0
+    },
+
     special: {
         def: 43920,
         res: 246,
@@ -263,12 +272,20 @@ const bossstat = {
         bossbalforce: 34,
         bossalrlimit: 0
     },
-    eisenriter: {
+    eisenritter: {
         def: 42850,
         res: 254,
         bosscounterforce: 220,
         bosscounterforcemindmg: 30,
         bossbalforce: 59,
+        bossalrlimit: 0
+    },
+    medusa: {
+        def: 45000,
+        res: 305,
+        bosscounterforce: 300,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 100,
         bossalrlimit: 0
     }
 }
@@ -408,10 +425,10 @@ function timecalc(num) {
     if (num == 1) {
         if (comptype == 'crit') {
             dmg = document.querySelector('#calc1 input#critdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7850, 13690, 500, 999, 999, swordl, spearl)[1];
+            fullspecdmg = calcdmg(boss, 99999, 8100, 13690, 500, 999, 999, swordl, spearl)[1];
         } else if (comptype == 'nocrit') {
             dmg = document.querySelector('#calc1 input#nocritdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7850, 13690, 500, 999, 999, swordl, spearl)[0];
+            fullspecdmg = calcdmg(boss, 99999, 8100, 13690, 500, 999, 999, swordl, spearl)[0];
         }
         inputtime = document.querySelector('#timecalc #input input#min1').value * 1 + document.querySelector('#timecalc #input input#sec1').value * 1 / 60;
         timedeal = document.querySelector('#timecalc #input input#timedeal1').value * 1;
@@ -419,10 +436,10 @@ function timecalc(num) {
         if (comptype == 'crit') {
             dmg = document.querySelector('#calc2 input#critdmg').value * 1;
             // (boss, atk, add, alr, bal, cri, counterforce, swordl, spearl)
-            fullspecdmg = calcdmg(boss, 99999, 7600, 9450, 200, 999, 999, swordl, spearl)[1];
+            fullspecdmg = calcdmg(boss, 99999, 8100, 13690, 5500, 999, 999, swordl, spearl)[1];
         } else if (comptype == 'nocrit') {
             dmg = document.querySelector('#calc2 input#nocritdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 7600, 9450, 200, 999, 999, swordl, spearl)[0];
+            fullspecdmg = calcdmg(boss, 99999, 8100, 13690, 500, 999, 999, swordl, spearl)[0];
         }
         inputtime = document.querySelector('#timecalc #input input#min2').value * 1 + document.querySelector('#timecalc #input input#sec2').value * 1 / 60;
         timedeal = document.querySelector('#timecalc #input input#timedeal2').value * 1;
