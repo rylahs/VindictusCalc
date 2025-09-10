@@ -1,116 +1,5 @@
 const bossstat = {
-    claire: {
-        def: 21500,
-        res: 113,
-        bosscounterforce: 5,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 5800
-    },
-    elchulus: {
-        def: 22000,
-        res: 114,
-        bosscounterforce: 10,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 5800
-    },
-    macha: {
-        def: 22500,
-        res: 116,
-        bosscounterforce: 20,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 5800
-    },
-    agares: {
-        def: 25000,
-        res: 120,
-        bosscounterforce: 30,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 5800
-    },
-    lugh: {
-        def: 26000,
-        res: 125,
-        bosscounterforce: 35,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 5800
-    },
-    selren: {
-        def: 26500,
-        res: 130,
-        bosscounterforce: 40,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 5800
-    },
-    marject: {
-        def: 27000,
-        res: 136,
-        bosscounterforce: 45,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 5800
-    },
-    aodhan: {
-        def: 27600,
-        res: 142,
-        bosscounterforce: 50,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 5800
-    },
-    caesar: {
-        def: 29000,
-        res: 143,
-        bosscounterforce: 55,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 0,
-        bossalrlimit: 0
-    },
-    nyle: {
-        def: 30100,
-        res: 148,
-        bosscounterforce: 60,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 1,
-        bossalrlimit: 0
-    },
-    ragnahim: {
-        def: 31200,
-        res: 154,
-        bosscounterforce: 65,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 2,
-        bossalrlimit: 0
-    },
-    siete: {
-        def: 32300,
-        res: 160,
-        bosscounterforce: 70,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 3,
-        bossalrlimit: 0
-    },
-    epona: {
-        def: 32300,
-        res: 167,
-        bosscounterforce: 75,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 4,
-        bossalrlimit: 0
-    },
-    tarathan: {
-        def: 32300,
-        res: 174,
-        bosscounterforce: 80,
-        bosscounterforcemindmg: 30,
-        bossbalforce: 4,
-        bossalrlimit: 0
-    },
+
     romel: {
         def: 32300,
         res: 175,
@@ -331,7 +220,7 @@ function exec(num) {
     let atk = target.querySelector('input#atk').value * 1;
     let add = target.querySelector('input#add').value * 1;
     let alr = target.querySelector('input#alr').value * 1;
-    let bal = target.querySelector('input#bal').value * 1 - ('#input#boss.bossbalforce').value * 1;
+    let bal = target.querySelector('input#bal').value * 1 - boss.bossbalforce * 1;
 
     if (bal > 100)
         bal = 100;
