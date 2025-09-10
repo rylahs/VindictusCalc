@@ -331,7 +331,7 @@ function exec(num) {
     let atk = target.querySelector('input#atk').value * 1;
     let add = target.querySelector('input#add').value * 1;
     let alr = target.querySelector('input#alr').value * 1;
-    let bal = target.querySelector('input#bal').value * 1 - boss.bossbalforce.value * 1;
+    let bal = target.querySelector('input#bal').value * 1 - ('#input#boss.bossbalforce').value * 1;
 
     if (bal > 100)
         bal = 100;
