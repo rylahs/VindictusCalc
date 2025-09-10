@@ -223,7 +223,6 @@ const bossstat = {
         bossbalforce: 77,
         bossalrlimit: 0
     },
-
     special: {
         def: 49120,
         res: 286,
