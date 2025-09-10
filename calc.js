@@ -310,7 +310,7 @@ const bossstat = {
         bosscounterforcemindmg: 30,
         bossbalforce: 100,
         bossalrlimit: 0
-    }
+    },
 }
 
 function exec(num) {
