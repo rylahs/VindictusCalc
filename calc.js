@@ -199,13 +199,37 @@ const bossstat = {
         bossbalforce: 56,
         bossalrlimit: 0
     },
+    gorbas: {
+        def: 47920,
+        res: 276,
+        bosscounterforce: 216,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 64,
+        bossalrlimit: 0
+    },
+    morgant: {
+        def: 48620,
+        res: 281,
+        bosscounterforce: 236,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 72,
+        bossalrlimit: 0
+    },
+    lucian: {
+        def: 49120,
+        res: 286,
+        bosscounterforce: 266,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 77,
+        bossalrlimit: 0
+    },
 
     special: {
-        def: 43920,
-        res: 246,
-        bosscounterforce: 186,
+        def: 49120,
+        res: 286,
+        bosscounterforce: 266,
         bosscounterforcemindmg: 30,
-        bossbalforce: 53,
+        bossbalforce: 77,
         bossalrlimit: 0
     },
     neamhain: {
@@ -280,7 +304,7 @@ const bossstat = {
         bossbalforce: 59,
         bossalrlimit: 0
     },
-    medusa: {
+    jordra: {
         def: 45000,
         res: 305,
         bosscounterforce: 300,
