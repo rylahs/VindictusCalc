@@ -93,7 +93,7 @@
                             <option label="[시공간 왜곡] 타로스" value="taros"></option>
                             <option label="[시공간 왜곡] 아이젠리터" value="eisenritter" ></option>
                             <option label="[시공간 왜곡] 요르드라" value="jordra"></option>
-                            <option label="[시공간 왜곡] 타로스(왕좌)" value="taros_king" selected></option>
+                            <option label="[시공간 왜곡] 타로스(왕좌)" value="tarosking" selected></option>
                             <option label="사용자 지정" value="custom"></option>
                         </select>
                     </td>
@@ -170,7 +170,8 @@
                         </tr>
                     </table>
                     <hr>
-                    <button type="button" class="btn btn-outline-dark mb-2" style='width: 324px;' onclick='exec(1);'>1번 캐릭터 전투력 계산</button>
+                   <button type="button" class="btn btn-outline-dark mb-2" style='width: 324px;' onclick='exec(1, this);'>1번 캐릭터 전투력 계산</button>
+
                 </div>
                 <div id='output'>
                     <table style='table-layout:fixed;'>
@@ -246,7 +247,8 @@
                         </tr>
                     </table>
                     <hr>
-                    <button type="button" class="btn btn-outline-dark mb-2" style='width: 324px;' onclick='exec(2);'>2번 캐릭터 전투력 계산</button>
+                    <button type="button" class="btn btn-outline-dark mb-2" style='width: 324px;' onclick='exec(2, this);'>2번 캐릭터 전투력 계산</button>
+
                 </div>
                 <div id='output'>
                     <table style='table-layout:fixed;'>

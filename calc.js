@@ -1,5 +1,5 @@
 const bossstat = {
-    taros_king: {
+    tarosking: {
         def: 74000,
         res: 340,
         bosscounterforce: 360,
@@ -217,8 +217,8 @@ const bossstat = {
     },
 }
 
-function exec(num) {
-    target = event.target.parentElement.parentElement;
+function exec(num, btn) {
+    let target = btn.parentElement.parentElement;
 
     let boss;
     if (document.querySelector('select#boss').value == 'custom')
