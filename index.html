@@ -10,7 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="calc.js"></script>
+<script>
+  // cache busting (자동 버전 부여)
+  const script = document.createElement('script');
+  script.src = 'calc.js?v=' + new Date().getTime(); // 매번 다른 쿼리 붙이기
+  document.head.appendChild(script);
+</script>
     <style>
         body {
             font-family: 'Noto Sans KR', sans-serif;
