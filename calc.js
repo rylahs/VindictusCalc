@@ -1,5 +1,12 @@
 const bossstat = {
-    
+    taros_king: {
+        def: 74000,
+        res: 340,
+        bosscounterforce: 360,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 145,
+        bossalrlimit: 0
+    },
     semias: {
         def: 50120,
         res: 296,
