@@ -1,10 +1,26 @@
 const bossstat = {
+    citadel: {
+        def: 70428,
+        res: 340,
+        bosscounterforce: 360,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 137,
+        bossalrlimit: 0
+    },
     tarosking: {
         def: 74000,
         res: 340,
         bosscounterforce: 360,
         bosscounterforcemindmg: 30,
         bossbalforce: 145,
+        bossalrlimit: 0
+    },
+    uscias: {
+        def: 53120,
+        res: 311,
+        bosscounterforce: 306,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 99,
         bossalrlimit: 0
     },
     semias: {
@@ -448,10 +464,10 @@ function timecalc(num) {
     if (num == 1) {
         if (comptype == 'crit') {
             dmg = document.querySelector('#calc1 input#critdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 9600, 30000, 300, 999, 999, swordl, spearl)[1];
+            fullspecdmg = calcdmg(boss, 99999, 10075, 34610, 300, 999, 480, swordl, spearl)[1];
         } else if (comptype == 'nocrit') {
             dmg = document.querySelector('#calc1 input#nocritdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 9600, 30000, 300, 999, 999, swordl, spearl)[0];
+            fullspecdmg = calcdmg(boss, 99999, 10075, 34610, 300, 999, 480, swordl, spearl)[0];
         }
         inputtime = document.querySelector('#timecalc #input input#min1').value * 1 + document.querySelector('#timecalc #input input#sec1').value * 1 / 60;
         timedeal = document.querySelector('#timecalc #input input#timedeal1').value * 1;
@@ -459,10 +475,10 @@ function timecalc(num) {
         if (comptype == 'crit') {
             dmg = document.querySelector('#calc2 input#critdmg').value * 1;
             // (boss, atk, add, alr, bal, cri, counterforce, swordl, spearl)
-            fullspecdmg = calcdmg(boss, 99999, 9600, 30000, 300, 999, 999, swordl, spearl)[1];
+            fullspecdmg = calcdmg(boss, 99999, 9700, 33790, 300, 999, 999, swordl, spearl)[1];
         } else if (comptype == 'nocrit') {
             dmg = document.querySelector('#calc2 input#nocritdmg').value * 1;
-            fullspecdmg = calcdmg(boss, 99999, 9600, 30000, 300, 999, 999, swordl, spearl)[0];
+            fullspecdmg = calcdmg(boss, 99999, 9700, 33790, 300, 999, 999, swordl, spearl)[0];
         }
         inputtime = document.querySelector('#timecalc #input input#min2').value * 1 + document.querySelector('#timecalc #input input#sec2').value * 1 / 60;
         timedeal = document.querySelector('#timecalc #input input#timedeal2').value * 1;
