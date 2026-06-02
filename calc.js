@@ -15,6 +15,14 @@ const bossstat = {
         bossbalforce: 145,
         bossalrlimit: 0
     },
+    esras: {
+        def: 56120,
+        res: 328,
+        bosscounterforce: 326,
+        bosscounterforcemindmg: 30,
+        bossbalforce: 111,
+        bossalrlimit: 0
+    },
     uscias: {
         def: 53120,
         res: 311,
